@@ -1,0 +1,41 @@
+Summarize the agreement
+
+Is the agreement mutual?
+
+What information is covered by the agreement?
+
+What use of Confidential Information is permitted under the agreement?
+
+Does information need to be marked as subject to the agreement?
+
+Are confidential markings required?
+
+What is the standard of care for protection of the other party’s Confidential Information?
+
+What is the standard of care required?
+
+Under what circumstances may Confidential Information be disclosed?
+
+Are employees and agents bound by the agreement?
+
+Is there are residuals clause?
+
+How is residual information handled?
+
+What is the term of this NDA?
+
+When does it expire?
+
+How long does the agreement last?
+
+What happens on termination?
+
+What remedies are available for breach of the agreement?
+
+Does the NDA have any unusual terms?
+
+Are there any important terms missing from the agreement?
+
+What information is subject to the agreement?
+
+How is Confidential Information defined?
