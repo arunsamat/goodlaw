@@ -2,16 +2,16 @@
 
 ## :book: Overview
 
-The GoodLaw Project is an open-source repository offering a set of benchmarking prompts for evaluating the output quality of Large Legal Language Models (LLLMs) in various legal contexts. Moderated by TrueLaw, this initiative serves as a straightforward tool for those interested in assessing LLLMs.
+The GoodLaw Project is an open-source initiative that aims to standardize the evaluation of Large Legal Language Models (LLLMs) across various legal practice areas. This repository serves as a specialized collection of benchmarking prompts designed to evaluate the output quality of LLLMs in different legal contexts.
 
 ## :question: Why GoodLaw?
 
-As machine learning technologies find their way into the legal domain, there's a growing need for simple yet effective ways to evaluate these technologies. The GoodLaw Project aims to fill this need by providing a benchmark of prompts that can be used to assess the quality of LLLM outputs.
+The legal industry is undergoing a transformation with the integration of machine learning technologies. As LLLMs become increasingly sophisticated, the absence of a standardized evaluation mechanism poses a challenge. The GoodLaw Project fills this critical gap by providing a curated set of prompts that serve as a reliable benchmark for assessing the quality and applicability of LLLM outputs across various legal domains.
 
 ## :star: Features
 
-- **Benchmarking Prompts**: A curated set of prompts for assessing LLLMs in different legal contexts.
-- **Open-Source**: The repository is open for community contributions.
+- **Curated Benchmarking Prompts**: A carefully curated set of prompts that cover a wide array of legal topics.
+- **Open-Source and Community-Driven**: The repository is open for community contributions.
 
 ## :bar_chart: Quantitative Evaluation
 
@@ -19,11 +19,23 @@ For those interested in a more quantitative evaluation, we recommend using the [
 
 ## :handshake: How to Contribute
 
-- Add new prompts under the `Benchmarking_Prompts` folder.
-- Improve or add to the usage guidelines in the `Docs` folder.
+- Add new prompts under the `benchmark_prompts` folder, organized by legal practice area.
+- Improve or add to the usage guidelines in the `USAGE_GUIDELINES.md` file.
 
-For detailed guidelines, please read [`CONTRIBUTING.md`](Contributing/CONTRIBUTING.md).
+For detailed guidelines, please read [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## :page_with_curl: License
 
 This project is licensed under the MIT License - see the [`LICENSE.md`](LICENSE.md) file for details.
+
+## :file_folder: Repository Structure
+
+The repository is organized into several key folders and files:
+
+- **benchmark_prompts**: This folder contains sub-folders for each legal practice area, such as `mergers_and_acquisitions`, `intellectual_property`, etc. Each sub-folder holds an `eval_prompt.txt` file with evaluation prompts and a `sample_docs` folder with sample legal documents relevant to that practice area.
+
+- **CONTRIBUTING.md**: Guidelines for contributing to the project.
+
+- **USAGE_GUIDELINES.md**: Instructions on how to use the benchmarking prompts for evaluation.
+
+- **README.md**: This file, providing an overview of the project.
